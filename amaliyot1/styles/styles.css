@@ -1,0 +1,438 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background: rgb(219, 214, 214);
+}
+
+/* header-qismi */
+.container {
+   margin: 0 auto;
+   width: 1440px;
+   background: white;
+   margin-top: 20px;
+}
+
+.cont-flex {
+   display: flex;
+}
+
+.logo {
+   width: 132px;
+   height: 108px;
+   background: black;
+}
+
+.group {
+   margin-left: 26px;
+   margin-top: 44px;
+}
+
+.amazon {
+   display: flex;
+}
+
+.img-amazon {
+   margin-top: 20px;
+   margin-left: 30px;
+}
+
+.qidirish {
+   margin: 0 auto;
+   width: 601px;
+   margin-top: 30px;
+}
+
+.input {
+   width: 600px;
+   height: 48px;
+   margin-left: 47px;
+   background: rgb(233, 230, 230);
+   border: none;
+   border-radius: 5px;
+}
+
+.yurakcha {
+   margin-left: 100px;
+   margin-top: 40px;
+}
+
+.sayit {
+   display: flex;
+}
+
+button {
+   width: 94px;
+   height: 38px;
+   background: black;
+   border-radius: 5px;
+   margin-top: 35px;
+   margin-left: 24px;
+}
+
+.login {
+   color: white;
+   text-decoration: none;
+}
+
+.text-inner {
+   display: flex;
+   width: 1176px;
+   height: 450px;
+   background: rgb(233, 230, 230);
+   margin-left: 132px;
+}
+
+.sonye-text {
+   margin-top: 79px;
+   margin-left: 56px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+   color: #FF9900;
+
+}
+
+
+h1 {
+   margin-top: 16px;
+   margin-left: 56px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 58px;
+   /* or 121% */
+   color: #000000;
+
+}
+
+.text {
+   margin-left: 56px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 20px;
+   /* or 167% */
+   color: rgba(35, 47, 62, 0.48);
+
+}
+
+.now {
+   display: flex;
+   margin-left: 28px;
+}
+
+.two {
+   width: 124px;
+   height: 32px;
+   background: #146EB4;
+   border: none;
+}
+
+.buy-now {
+   text-decoration: none;
+   color: white;
+}
+
+.one {
+   width: 124px;
+   height: 32px;
+   background: #FFFFFF;
+   border: 1px solid #146EB4;
+}
+
+.leam {
+   text-decoration: none;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 14px;
+   /* identical to box height */
+   text-align: center;
+   color: #146EB4;
+}
+
+.bulutuz {
+   margin-top: 18px;
+   margin-left: 250px;
+}
+
+/* section-qismi */
+
+.cestion-container {
+   margin: 0 auto;
+   width: 1440px;
+   height: 872px;
+   background: white;
+}
+
+.selekt {
+   display: flex;
+}
+
+.catogories {
+   margin-left: 132px;
+   margin-top: 56px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28px;
+   color: #000000;
+}
+
+.seeal {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   /* identical to box height */
+   margin-left: 955px;
+   text-align: right;
+   margin-top: 61px;
+   color: #146EB4;
+}
+
+.text-styles-type {
+   display: flex;
+}
+
+.car {
+   margin-left: 132px;
+   margin-top: 28px;
+   width: 100px;
+   height: 184px;
+   box-shadow: 0px 0px 50px 5px rgb(231, 225, 225);
+}
+
+.car1 {
+   margin-top: 56px;
+   margin-left: 20px;
+}
+
+.kiss {
+   width: 110px;
+   height: 160px;
+   background: #f7f1f1;
+   margin-top: 37px;
+   margin-left: 9px;
+}
+
+.baby {
+   margin-left: 30px;
+   margin-top: 39px;
+}
+
+.kiss-baby {
+   text-align: center;
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 15px;
+
+   color: #232F3E;
+
+}
+
+.beauty {
+   margin-left: 32px;
+   margin-top: 31px;
+}
+
+.womens {
+   margin-left: 31px;
+   margin-top: 31px;
+}
+
+.mens {
+   margin-left: 46px;
+   margin-top: 36px;
+}
+
+.health {
+   margin-left: 38px;
+   margin-top: 46px;
+}
+
+.home {
+   margin-left: 38px;
+   margin-top: 45px;
+}
+
+.pet {
+   margin-left: 20px;
+   margin-top: 37px;
+}
+
+.moves {
+   margin-left: 35px;
+   margin-top: 38px;
+}
+
+.lugagi {
+   margin-left: 40px;
+   margin-top: 40px;
+}
+
+.seeal-1 {
+   margin-top: 65px;
+   margin-left: 925px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   /* identical to box height */
+
+   text-align: right;
+   color: #146EB4;
+}
+
+.best-seller {
+   display: flex;
+}
+
+.taim {
+   width: 279px;
+   height: 360px;
+   background: #f5f2f2;
+   margin-left: 132px;
+   margin-top: 40px;
+}
+
+.soat {
+   margin-top: 38px;
+   margin-left: 39px;
+}
+
+.watch {
+   display: flex;
+}
+
+.class2 {
+   margin-left: 16px;
+   margin-top: 46px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 16px;
+   /* identical to box height, or 123% */
+   color: rgba(35, 47, 62, 0.48);
+}
+
+.class3 {
+   margin-top: 8px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 16px;
+   /* identical to box height, or 107% */
+
+   color: #000000;
+
+}
+
+.class4 {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 16px;
+   /* identical to box height, or 123% */
+   color: #146EB4;
+}
+
+.five {
+   margin-top: 109px;
+}
+
+.class6 {
+   display: flex;
+}
+
+.mobils {
+   margin-left: 20px;
+   width: 279px;
+   height: 400px;
+   background: white;
+   box-shadow: 0px 0px 50px 5px rgb(231, 225, 225);
+   margin-top: 20px;
+}
+
+.samsung {
+   margin-left: 38px;
+   margin-top: 30px;
+}
+
+.class23 {
+   margin-left: 20px;
+   margin-top: 10px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 16px;
+   /* identical to box height, or 123% */
+   color: rgba(35, 47, 62, 0.48);
+}
+
+.five-2 {
+   margin-top: 78px;
+   margin-left: 10px;
+}
+
+.add-to {
+   width: 110px;
+   height: 30px;
+   background: #146EB4;
+   border: none;
+}
+
+.add-to-11 {
+   text-decoration: none;
+   color: white;
+}
+
+.taim-111 {
+   width: 279px;
+   height: 360px;
+   background: #f5f2f2;
+   margin-left: 20px;
+   margin-top: 40px;
+}
+
+.quick {
+   width: 110px;
+   height: 30px;
+   background: #FFFFFF;
+   border: 1px solid #146EB4;
+}
+
+.quick-12{
+   text-decoration: none;
+   color: #146EB4;
+}
+
+.soat-123{
+   margin-left: 35px;
+   margin-top: 20px;
+}
+
+.saqlash-1{
+   width: 100px;
+   height: 15px;
+   margin-top: 5px;
+   margin-right: 5px;
+}
